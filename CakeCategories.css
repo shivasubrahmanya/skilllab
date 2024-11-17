@@ -1,0 +1,100 @@
+/* Categories Container */
+.categories {
+  text-align: center;
+  padding: 20px;
+}
+
+.categories-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.category {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  padding: 15px;
+}
+
+.category img {
+  width: 100%;
+  border-radius: 8px;
+  height: auto;
+}
+
+.cake-price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.category-buttons {
+  margin-top: 10px;
+}
+
+.add-to-cart-btn {
+  background-color: #ff6347;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #e5533f;
+}
+
+.view-details {
+  display: block;
+  margin-top: 10px;
+  color: #1e90ff;
+  text-decoration: none;
+}
+
+.view-details:hover {
+  text-decoration: underline;
+}
+
+/* Popup Notification Style */
+.popup {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #28a745; /* Green color */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  z-index: 1000;
+  opacity: 0;
+  animation: fadeIn 0.5s forwards; /* Fade-in animation */
+}
+
+/* Keyframes for fade-in effect */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.popup p {
+  margin: 0;
+}
+
+/* Add a smooth fade-out effect */
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,98 @@
+/* Homepage.css */
+
+/* General homepage styles */
+.homepage {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.hero {
+  background-color: #f8f8f8;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #ff6347;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background-color: #e5533f;
+}
+
+/* Featured cakes section */
+.featured-cakes {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.featured-cakes h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.cake-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.cake-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 280px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.cake-card:hover {
+  transform: translateY(-10px);
+}
+
+.cake-card img {
+  width: 100%;
+  height: 200px; /* Set the height to ensure the images are uniform */
+  object-fit: cover; /* This ensures the image covers the space without distortion */
+  border-radius: 8px; /* Add rounded corners to the images */
+}
+
+.cake-card h3 {
+  font-size: 22px;
+  margin-top: 15px;
+}
+
+.cake-card p {
+  font-size: 16px;
+  color: #666;
+  margin-top: 10px;
+}
+
+.view-details {
+  margin-top: 15px;
+  display: inline-block;
+  color: #1e90ff;
+  text-decoration: none;
+}
+
+.view-details:hover {
+  text-decoration: underline;
+}

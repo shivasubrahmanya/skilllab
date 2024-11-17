@@ -1,0 +1,85 @@
+/* AboutUs.css */
+.about-us {
+  background-color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  margin: 50px auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+.about-us h1 {
+  font-size: 2.8rem;
+  color: #2c3e50;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.about-us p {
+  font-size: 1.2rem;
+  color: #7f8c8d;
+  line-height: 1.7;
+  margin-bottom: 25px;
+}
+
+.about-us .contact-info {
+  font-size: 1.1rem;
+  color: #2c3e50;
+}
+
+.about-us .contact-info p {
+  margin: 10px 0;
+}
+
+.about-us .contact-info a {
+  color: #e74c3c;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.about-us .contact-info a:hover {
+  text-decoration: underline;
+}
+
+.about-us img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Add a colorful section title */
+.about-us h2 {
+  font-size: 2rem;
+  color: #e74c3c;
+  margin-top: 40px;
+  font-weight: 500;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-us {
+    padding: 30px 15px;
+    margin: 20px;
+  }
+
+  .about-us h1 {
+    font-size: 2.2rem;
+  }
+
+  .about-us p {
+    font-size: 1rem;
+  }
+
+  .about-us .contact-info {
+    font-size: 1rem;
+  }
+
+  .about-us img {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+}
